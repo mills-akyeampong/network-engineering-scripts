@@ -15,3 +15,20 @@ def send_alert(message):
     s.quit()
 
 send_alert("Interface Gi0/1 is DOWN on Switch1.")
+
+
+
+#📬 4. Email Alert When Interface Goes Down
+#📜 Script Summary
+
+#Sends an email using SMTP if something like an interface failure is detected.
+
+#🔍 Explanation
+
+#smtplib: Sends email through an SMTP server.
+
+#MIMEText: Formats plain-text email.
+
+#starttls(): Secures the connection with encryption.
+
+#Used to notify admins about outages.
