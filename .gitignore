@@ -1,0 +1,18 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variable files
+.env
+
+# Ignore config backups
+*.bak
+*.cfg.backup
+*.swp
+
+# Ignore test results or logs
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
