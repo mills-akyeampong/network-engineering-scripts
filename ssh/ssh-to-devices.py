@@ -14,14 +14,14 @@ for ip in devices:
     
     
     
-    #🔐 SSH to Multiple Devices (Paramiko)
+#🔐 SSH to Multiple Devices (Paramiko)
     
-    #📜 Script Summary
-    #Uses SSH connect to multiple devices and run commands like show version.
+#📜 Script Summary
+#Uses SSH connect to multiple devices and run commands like show version.
     
-    #🔍 Explanation
-    #paramiko: Python SSH client
-    #exec_command(): Executes a command on the remote devicec.
-    #stdout.read().decode(): Reads the results and decodes bytes to text.
+#🔍 Explanation
+#paramiko: Python SSH client
+#exec_command(): Executes a command on the remote devicec.
+#stdout.read().decode(): Reads the results and decodes bytes to text.
     
-    #This is used for inventory collection, verification, or status checks across debices.
+#This is used for inventory collection, verification, or status checks across debices.
