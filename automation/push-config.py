@@ -32,5 +32,6 @@ net_connect.disconnect()
 #send_config_set(): Sends the list of commands as a configuration set.
 #disconnect(): Closes the SSH session cleanly.
 
+#make sure you have netmiko installed: pip install netmiko
 #This can be used for network automation tasks like bulk configuration, 
 #provisioning, or template-based changes across routers/switches.
