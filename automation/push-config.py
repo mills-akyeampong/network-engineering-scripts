@@ -17,3 +17,20 @@ commands = [
 output = net_connect.send_config_set(commands)
 print(output)
 net_connect.disconnect()
+
+
+
+#⚙️ Network Automation (Netmiko Example)
+
+#📜 Script Summary
+#Connects to a Cisco IOS device via SSH and pushes configuration commands.
+
+#🔍 Explanation
+#Netmiko: Python library for SSH automation to network devices.
+#ConnectHandler: Establishes an SSH session using device details.
+#commands list: Contains CLI commands to be applied in config mode.
+#send_config_set(): Sends the list of commands as a configuration set.
+#disconnect(): Closes the SSH session cleanly.
+
+#This can be used for network automation tasks like bulk configuration, 
+#provisioning, or template-based changes across routers/switches.
