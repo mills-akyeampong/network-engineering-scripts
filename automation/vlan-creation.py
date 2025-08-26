@@ -16,3 +16,21 @@ for vlan in vlans:
     print(output)
 
 net_connect.disconnect()
+
+
+
+#⚙️ Network Automation (Netmiko VLAN Example)
+
+#📜 Script Summary
+#Automates VLAN creation on a Cisco IOS device using SSH.
+
+#🔍 Explanation
+#Netmiko: Python library for network device automation.
+#ConnectHandler: Establishes SSH session with Cisco IOS device.
+#vlans list: VLAN IDs to be created.
+#Loop: Iterates through VLAN IDs and builds configuration commands.
+#send_config_set(): Sends VLAN creation commands to the device.
+#disconnect(): Ends the SSH session.
+
+#Useful for automating switch provisioning, ensuring consistent VLAN 
+#deployments, and reducing manual CLI configuration errors.
