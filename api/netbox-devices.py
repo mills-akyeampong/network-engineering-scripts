@@ -12,7 +12,7 @@ for device in devices:
     
     
     
-    #🔄 REST API (NetBox Example)
+#🔄 REST API (NetBox Example)
 
 #📜 Script Summary
 #Pulls a list of devices from a NetBox instance via its REST API.
