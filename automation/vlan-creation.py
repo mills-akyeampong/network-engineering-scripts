@@ -32,5 +32,6 @@ net_connect.disconnect()
 #send_config_set(): Sends VLAN creation commands to the device.
 #disconnect(): Ends the SSH session.
 
+#make sure you have netmiko installed: pip install netmiko
 #Useful for automating switch provisioning, ensuring consistent VLAN 
 #deployments, and reducing manual CLI configuration errors.
