@@ -6,7 +6,7 @@ with open('syslog.log', 'r') as file:
             print("ALERT:", line.strip())
 
 
-#🔄 Log Monitoring (Syslog Alert Example)
+#Log Monitoring (Syslog Alert Example)
 
 #📜 Script Summary
 #Parses a syslog file and triggers an alert when an interface up/down event is detected.
