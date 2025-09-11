@@ -14,7 +14,7 @@ for ip in devices:
     
     
     
-#🔐 SSH to Multiple Devices (Paramiko)
+#SSH to Multiple Devices (Paramiko)
     
 #📜 Script Summary
 #Uses SSH connect to multiple devices and run commands like show version.
