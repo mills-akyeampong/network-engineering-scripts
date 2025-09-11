@@ -28,7 +28,7 @@ for ip in devices:
         print(f"❌ {ip} is unreachable")
 
 
-#🔄 Network Automation (Device Reachability Check)
+#Network Automation (Device Reachability Check)
 
 #📜 Script Summary
 #Reads device IPs, pings them, and checks SSH accessibility.
