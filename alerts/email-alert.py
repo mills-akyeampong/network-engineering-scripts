@@ -18,7 +18,7 @@ send_alert("Interface Gi0/1 is DOWN on Switch1.")
 
 
 
-#📬 Email Alert When Interface Goes Down
+#Email Alert When Interface Goes Down
 
 #📜 Script Summary
 #Sends an email using SMTP if something like an interface failure is detected.
