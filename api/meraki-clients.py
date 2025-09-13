@@ -16,7 +16,7 @@ for client in clients:
     
     
     
-#🔄 REST API (Meraki Example)
+#REST API (Meraki Example)
 
 #📜 Script Summary
 #Pulls data from the Meraki cloud API about connected clients.
