@@ -7,7 +7,7 @@ for i in range(1, 255):
         print(f"{ip} is available")
 
 
-#🔄 Network Utility (Ping Sweep Example)
+#Network Utility (Ping Sweep Example)
 
 #📜 Script Summary
 #Scans a subnet (192.168.1.0/24) to check which IP addresses are available.
