@@ -42,4 +42,4 @@ Never hardcode passwords or API keys. Use environment variables or a `.env` file
 
 ## 🧑‍💻 Author
 
-Created by Mills Kojo Akyeampong – Security Systems & Network Technician
+Created by Mills Kojo Akyeampong – Security Systems & Network Engineer.
