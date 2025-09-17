@@ -18,7 +18,7 @@ for sent, received in result:
     print(f"{received.psrc}\t\t{received.hwsrc}")
     
 
-#🔄 Network Discovery (Scapy ARP Scan Example)
+#Network Discovery (Scapy ARP Scan Example)
 
 #📜 Script Summary
 #Discovers all active devices in a subnet by sending ARP requests.
